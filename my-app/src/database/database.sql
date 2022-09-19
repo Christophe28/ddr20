@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS `users`;
+
+CREATE TABLE `info_users`(
+    id INT PRIMARY KEY NOT NULL,
+    pseudo VARCHAR(100),
+    pass VARCHAR(100)
+)
