@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename='/ddr20'>
-    {/* <Router basename='/ddr20'> */}
-      <App />
-    {/* </Router> */}
-  </BrowserRouter>
+  <Router basename='/ddr20'>
+    <App />
+  </Router>
 );
