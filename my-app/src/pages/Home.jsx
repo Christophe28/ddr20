@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+// import axios from 'axios';
+import { NavLink } from 'react-router-dom';
 
 // https://reactjsexample.com/a-react-form-that-will-hash-your-passwords-and-send-them-to-a-database/
 
@@ -24,6 +25,9 @@ const Home = () => {
             >
                 S'inscrire
             </button>
+            <NavLink to="/game">
+                vas y test un peu pour voir 
+            </NavLink>
         </div>
     );
 };

@@ -10,7 +10,7 @@ function App() {
   return (
     <Routes>
       <Route exact path="/" element={<Home />} />
-      <Route path="/game" element={<Game />} />
+      <Route exact path="/game" element={<Game />} />
       <Route path="*" element={<Error404 />} />
     </Routes>
   );
