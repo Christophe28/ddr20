@@ -1,7 +1,10 @@
 import { Route, Routes } from 'react-router';
+
 import Home from './pages/Home';
 import Game from './pages/Game';
 import Error404 from './pages/Error404';
+
+import "./style/index.scss";
 
 function App() {
   return (
