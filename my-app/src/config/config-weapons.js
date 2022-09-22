@@ -1,3 +1,15 @@
+import picture from "../assets/icon-classic-pkb-128px.png";
+import pictureStick from "../assets/stick.png";
+import pictureDagger from "../assets/dagger.png";
+import pictureCudgel from "../assets/cudgel.jpg";
+import pictureHatchet from "../assets/hatchet.jpeg";
+import pictureJavelin from "../assets/javelin.png";
+import pictureSpear from "../assets/spear.png";
+import pictureLightHammer from "../assets/light-hammer.jpeg";
+import pictureMace from "../assets/mace.jpeg";
+import pictureSerpe from "../assets/serpe.jpeg";
+import pictureMassue from "../assets/massue.jpeg";
+
 export const items = [
     {
         typeWeapon: "Armes courantes de corps à corps",
@@ -9,6 +21,7 @@ export const items = [
                 dammage: 6,
                 type: "Contondant",
                 weight: 2000,
+                picture: pictureStick,
                 property: [
                     {
                         type: [
@@ -28,6 +41,7 @@ export const items = [
                 dammage: 4,
                 type: "Perforant",
                 weight: 500,
+                picture: pictureDagger,
                 property: [
                     {
                         type: [
@@ -50,8 +64,9 @@ export const items = [
                 name: "Gourdin",
                 dice: 1,
                 dammage: 4,
-                type: "Tranchant",
+                type: "Contondant",
                 weight: 1000,
+                picture: pictureCudgel,
                 property: [
                     {
                         type: [
@@ -69,6 +84,7 @@ export const items = [
                 dammage: 6,
                 type: "Tranchant",
                 weight: 1000,
+                picture: pictureHatchet,
                 property: [
                     {
                         type: [
@@ -90,6 +106,7 @@ export const items = [
                 dammage: 6,
                 type: "Perforant",
                 weight: 1000,
+                picture: pictureJavelin,
                 property: [
                     {
                         type: [
@@ -108,6 +125,7 @@ export const items = [
                 dammage: 6,
                 type: "Perforant",
                 weight: 1500,
+                picture: pictureSpear,
                 property: [
                     {
                         type: [
@@ -131,6 +149,7 @@ export const items = [
                 dammage: 4,
                 type: "Contondant",
                 weight: 1000,
+                picture: pictureLightHammer,
                 property: [
                     {
                         name: "Légère",
@@ -147,7 +166,11 @@ export const items = [
                 dice: 1,
                 dammage: 6,
                 type: "Contondant",
-                weight: 2000
+                weight: 2000,
+                picture: pictureMace,
+                property: [
+                    ""
+                ]
             },
             {
                 id: 9,
@@ -156,6 +179,7 @@ export const items = [
                 dammage: 8,
                 type: "Contondant",
                 weight: 5000,
+                picture: pictureMassue,
                 property: [
                     {
                         hands: "Deux mains"
@@ -169,6 +193,7 @@ export const items = [
                 dammage: 4,
                 type: "Tranchant",
                 weight: 1000,
+                picture: pictureSerpe,
                 property: [
                     {
                         name: "Légère"
@@ -187,6 +212,7 @@ export const items = [
                 dammage: 8,
                 type: "Perforant",
                 weight: 2500,
+                picture: picture,
                 property: [
                     {
                         name: "Munition",
@@ -203,6 +229,7 @@ export const items = [
                 dammage: 6,
                 type: "Perforant",
                 weight: 1000,
+                picture: picture,
                 property: [
                     {
                         name: "Munitions",
@@ -219,6 +246,7 @@ export const items = [
                 dammage: 4,
                 type: "Perforant",
                 weight: 100,
+                picture: picture,
                 property: [
                     {
                         name: "Finesse"
@@ -236,6 +264,7 @@ export const items = [
                 dammage: 4,
                 type: "Contondant",
                 weight: 0,
+                picture: picture,
                 property: [
                     {
                         name: "Munition",
@@ -255,6 +284,7 @@ export const items = [
                 dammage: 6,
                 type: "Tranchant",
                 weight: 1500,
+                picture: picture,
                 property: [
                     {
                         name: "Finesse"
@@ -271,6 +301,7 @@ export const items = [
                 dammage: 10,
                 type: "Tranchant",
                 weight: 3000,
+                picture: picture,
                 property: [
                     {
                         name: "Lourde",
@@ -288,6 +319,7 @@ export const items = [
                 dammage: 6,
                 type: "Tranchant",
                 weight: 3000,
+                picture: picture,
                 property: [
                     {
                         name: "Lourde",
@@ -301,6 +333,7 @@ export const items = [
                 dice: 1,
                 dammage: 6,
                 weight: 1000,
+                picture: picture,
                 property: [
                     {
                         name: "Finesse"
@@ -317,6 +350,7 @@ export const items = [
                 dammage: 8,
                 type: "Tranchant",
                 weight: 1500,
+                picture: picture,
                 property: [
                     {
                         name: "Polyvalente",
@@ -332,6 +366,7 @@ export const items = [
                 dammage: 8,
                 type: "Tranchant",
                 weight: 1500,
+                picture: picture,
                 property: [
                     "-"
                 ]
@@ -343,6 +378,7 @@ export const items = [
                 dammage: 4,
                 type: "Tranchant",
                 weight: 1500,
+                picture: picture,
                 property: [
                     {
                         name: "Finesse",
@@ -359,6 +395,7 @@ export const items = [
                 dammage: 12,
                 type: "Tranchant",
                 weight: 3500,
+                picture: picture,
                 property: [
                     {
                         name: "Lourde",
@@ -373,6 +410,7 @@ export const items = [
                 dammage: 8,
                 type: "Tranchant",
                 weight: 2000,
+                picture: picture,
                 property: [
                     {
                         name: "Polyvalente",
@@ -388,6 +426,7 @@ export const items = [
                 dammage: 10,
                 type: "Tranchant",
                 weight: 3000,
+                picture: picture,
                 property: [
                     {
                         name: "Lourde",
@@ -405,6 +444,7 @@ export const items = [
                 dammage: 12,
                 type: "Perforant",
                 weight: 3000,
+                picture: picture,
                 property: [
                     {
                         name: "Allonge",
@@ -419,6 +459,7 @@ export const items = [
                 dammage: 6,
                 type: "Contondant",
                 weight: 5000,
+                picture: picture,
                 property: [
                     {
                         name: "Lourde",
@@ -433,6 +474,7 @@ export const items = [
                 dammage: 8,
                 type: "Contondant",
                 weight: 1000,
+                picture: picture,
                 property: [
                     {
                         name: "Polyvalente",
@@ -448,6 +490,7 @@ export const items = [
                 dammage: 8,
                 type: "Perforant",
                 weight: 2000,
+                picture: picture,
                 property: [
                     "-"
                 ]
@@ -459,6 +502,7 @@ export const items = [
                 dammage: 8,
                 type: "Perforant",
                 weight: 1000,
+                picture: picture,
                 property: [
                     "-"
                 ]
@@ -470,6 +514,7 @@ export const items = [
                 dammage: 10,
                 type: "Perforant",
                 weight: 9000,
+                picture: picture,
                 property: [
                     {
                         name: "Lourde",
@@ -485,6 +530,7 @@ export const items = [
                 dammage: 8,
                 type: "Perforant",
                 weight: 1000,
+                picture: picture,
                 property: [
                     {
                         name: "Finesse"
@@ -498,6 +544,7 @@ export const items = [
                 dammage: 6,
                 type: "Perforant",
                 weight: 2000,
+                picture: picture,
                 property: [
                     {
                         name: "Lancer",
@@ -522,6 +569,7 @@ export const items = [
                 dammage: 6,
                 type: "Perforant",
                 weight: 1500,
+                picture: picture,
                 property: [
                     {
                         name: "Munition",
@@ -540,6 +588,7 @@ export const items = [
                 dammage: 10,
                 type: "Perforant",
                 weight: 9000,
+                picture: picture,
                 property: [
                     {
                         name: "Munition",
@@ -557,6 +606,7 @@ export const items = [
                 dammage: 8,
                 type: "Perforant",
                 weight: 1000,
+                picture: picture,
                 property: [
                     {
                         name: "Munition",
@@ -573,6 +623,7 @@ export const items = [
                 dammage: 0,
                 type: "",
                 weight: 1500,
+                picture: picture,
                 property: [
                     {
                         name: "Spécial",
@@ -590,6 +641,7 @@ export const items = [
                 dammage: 1,
                 type: "Perforant",
                 weight: 5000,
+                picture: picture,
                 property: [
                     {
                         name: "Munition",

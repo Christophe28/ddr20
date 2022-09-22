@@ -1,0 +1,20 @@
+.container-game {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+
+    .plateau {
+        width: 100%;
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    .panel-right {
+        width: 20rem;
+        border: 1px solid red;
+
+        .item {
+            height: 100px;
+        }
+    }
+}
