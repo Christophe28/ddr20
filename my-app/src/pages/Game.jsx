@@ -1,6 +1,10 @@
 import React from 'react';
+
+import { items } from '../config/config-weapons';
+import { charactersSheet } from '../config/config-characer-sheet';
+
 import Items from '../components/Items';
-import { items } from '../config/config';
+import CharactersSheet from '../components/Characters-sheets';
 
 const Game = () => {
     const arrayTest = [1, 2];
@@ -10,22 +14,29 @@ const Game = () => {
         }
     }
 
+    console.log(charactersSheet[0].baseStat);
     return (
         <div>
             <h1>C'est le menu du jeu avec toutes les fonctionnalités</h1>
             <section className="items">
                 {
-                    items.map((item) => (
-                        item.weapons.map((weapon) => (
-                            <Items
-                            key={weapon.id}
-                            name={weapon.name}
-                            dammage={weapon.dammage}
-                            dice={weapon.dice} 
-                            />
-                        ))
+                    items.map((item, index) => (
+                        <div key={item.weapons[index].id}>
+                            <p><strong>{item.typeWeapon}</strong></p>
+                            {
+                                item.weapons.map((weapon) => (
+                                    <Items
+                                        key={weapon.id}
+                                        name={weapon.name}
+                                        dammage={weapon.dammage}
+                                        dice={weapon.dice}
+                                    />
+                                ))
+                            }
+                        </div>
                     ))
                 }
+                <CharactersSheet />
             </section>
         </div>
     );
