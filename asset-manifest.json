@@ -1,15 +1,39 @@
 {
   "files": {
-    "main.css": "/ddr20/static/css/main.4ad4f9fe.css",
-    "main.js": "/ddr20/static/js/main.7da42c4d.js",
+    "main.css": "/ddr20/static/css/main.02f03111.css",
+    "main.js": "/ddr20/static/js/main.0f420399.js",
+    "static/media/morgenstern.png": "/ddr20/static/media/morgenstern.1b926c55e654e8d548a4.png",
     "static/media/stick.png": "/ddr20/static/media/stick.a79cdd16457560d8de80.png",
-    "static/media/icon-classic-pkb-128px.png": "/ddr20/static/media/icon-classic-pkb-128px.c8ca94065162971105a9.png",
+    "static/media/weapon-flail.jpg": "/ddr20/static/media/weapon-flail.a5c56d0805ff7b8ad681.jpg",
+    "static/media/war-hammer.jpg": "/ddr20/static/media/war-hammer.a632ddca93bdb90b4fe1.jpg",
+    "static/media/two-handed-axe.jpg": "/ddr20/static/media/two-handed-axe.9c59c3a82cff0b2fdf14.jpg",
+    "static/media/trident.png": "/ddr20/static/media/trident.8887988ed8189b3e34e3.png",
+    "static/media/battle-axe.jpg": "/ddr20/static/media/battle-axe.a72173d4592a8c8aff5d.jpg",
+    "static/media/two-handle-sword.jpg": "/ddr20/static/media/two-handle-sword.62150d254917b25a0103.jpg",
+    "static/media/whip.jpg": "/ddr20/static/media/whip.b0d2a7bef8557ecd1b85.jpg",
+    "static/media/short-bow.jpg": "/ddr20/static/media/short-bow.3e00c2d367b7bfab6719.jpg",
+    "static/media/net.png": "/ddr20/static/media/net.4e4b28310381a2038e99.png",
+    "static/media/mallet.jpg": "/ddr20/static/media/mallet.bc0fd6a254ccb94a33bf.jpg",
+    "static/media/longbow.png": "/ddr20/static/media/longbow.2b31f37780a585cfe0d4.png",
+    "static/media/light-crossbow.png": "/ddr20/static/media/light-crossbow.9764a38429b3655a9ec9.png",
+    "static/media/hand-crossbow.png": "/ddr20/static/media/hand-crossbow.f3fa06fd037727572fd1.png",
+    "static/media/long-sword.jpg": "/ddr20/static/media/long-sword.9e0bd92b9887a374407f.jpg",
+    "static/media/dart.jpg": "/ddr20/static/media/dart.a4a303b1f751e3238b02.jpg",
+    "static/media/pommel-spear.jpg": "/ddr20/static/media/pommel-spear.15f381e14ecfc4ea5d38.jpg",
+    "static/media/rapier.jpg": "/ddr20/static/media/rapier.52200a415509f4fd2075.jpg",
+    "static/media/scimitar.png": "/ddr20/static/media/scimitar.4cd46386b27edc55a13b.png",
+    "static/media/sling.jpg": "/ddr20/static/media/sling.e269079e6a1bf7682deb.jpg",
+    "static/media/blowpipe.jpg": "/ddr20/static/media/blowpipe.868dd2536ce2d2dcc418.jpg",
+    "static/media/short-sword.jpg": "/ddr20/static/media/short-sword.204c8dbf096a3f8464ba.jpg",
+    "static/media/peak.png": "/ddr20/static/media/peak.8e4bf96a0be878f0a712.png",
+    "static/media/hallberd.png": "/ddr20/static/media/hallberd.aeaed247eafad1d2c362.png",
+    "static/media/heavy-crossbow.png": "/ddr20/static/media/heavy-crossbow.856cc1721af1826ded60.png",
     "index.html": "/ddr20/index.html",
-    "main.4ad4f9fe.css.map": "/ddr20/static/css/main.4ad4f9fe.css.map",
-    "main.7da42c4d.js.map": "/ddr20/static/js/main.7da42c4d.js.map"
+    "main.02f03111.css.map": "/ddr20/static/css/main.02f03111.css.map",
+    "main.0f420399.js.map": "/ddr20/static/js/main.0f420399.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ad4f9fe.css",
-    "static/js/main.7da42c4d.js"
+    "static/css/main.02f03111.css",
+    "static/js/main.0f420399.js"
   ]
 }
