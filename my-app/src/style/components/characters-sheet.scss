@@ -1,8 +1,8 @@
 .container-game {
+    height: 91vh;
     display: flex;
     justify-content: space-between;
-    height: 100vh;
-
+    
     .plateau {
         width: 100%;
         text-align: center;
@@ -11,10 +11,23 @@
 
     .panel-right {
         width: 20rem;
-        border: 1px solid red;
+        height: 91vh;
+        overflow-y: scroll;
+        background-color: $color-1;
+        color: $color-2;
+        border: 2px solid $color-1;
+        
+        p {
+            text-align: center;
+        }
 
         .item {
             height: 100px;
+            margin-left: 10px;
+
+            img {
+                width: 45px;
+            }
         }
     }
 }

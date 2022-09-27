@@ -1,14 +1,47 @@
-import picture from "../assets/icon-classic-pkb-128px.png";
-import pictureStick from "../assets/stick.png";
-import pictureDagger from "../assets/dagger.png";
-import pictureCudgel from "../assets/cudgel.jpg";
-import pictureHatchet from "../assets/hatchet.jpeg";
-import pictureJavelin from "../assets/javelin.png";
-import pictureSpear from "../assets/spear.png";
-import pictureLightHammer from "../assets/light-hammer.jpeg";
-import pictureMace from "../assets/mace.jpeg";
-import pictureSerpe from "../assets/serpe.jpeg";
-import pictureMassue from "../assets/massue.jpeg";
+//melee-weapons
+import pictureStick from "../assets/melee-weapons/stick.png";
+import pictureDagger from "../assets/melee-weapons/dagger.png";
+import pictureCudgel from "../assets/melee-weapons/cudgel.jpg";
+import pictureHatchet from "../assets/melee-weapons/hatchet.jpeg";
+import pictureJavelin from "../assets/melee-weapons/javelin.png";
+import pictureSpear from "../assets/melee-weapons/spear.png";
+import pictureLightHammer from "../assets/melee-weapons/light-hammer.jpeg";
+import pictureMace from "../assets/melee-weapons/mace.jpeg";
+import pictureSerpe from "../assets/melee-weapons/serpe.jpeg";
+import pictureMassue from "../assets/melee-weapons/massue.jpeg";
+
+//range-weapons
+import pictureLigthCrossbow from "../assets/range-weapons/light-crossbow.png";
+import pictureShortBow from "../assets/range-weapons/short-bow.jpg";
+import pictureDart from "../assets/range-weapons/dart.jpg";
+import pictureSling from "../assets/range-weapons/sling.jpg";
+
+//melee-warfare-weapons
+import pictutreScimitar from "../assets/melee-warfare-weapons/scimitar.png";
+import pictureTick from "../assets/melee-warfare-weapons/tick.jpg";
+import PictureTwoHandleSword from "../assets/melee-warfare-weapons/two-handle-sword.jpg";
+import pictureShortSword from "../assets/melee-warfare-weapons/short-sword.jpg";
+import pictureLongSword from "../assets/melee-warfare-weapons/long-sword.jpg";
+import pictureWeaponFlail from "../assets/melee-warfare-weapons/weapon-flail.jpg";
+import pictureWhip from "../assets/melee-warfare-weapons/whip.jpg";
+import pictureTwoHandedAxe from "../assets/melee-warfare-weapons/two-handed-axe.jpg";
+import pictureBattleAxe from "../assets/melee-warfare-weapons/battle-axe.jpg";
+import pictureHallberd from "../assets/melee-warfare-weapons/hallberd.png";
+import picturePommelSpear from "../assets/melee-warfare-weapons/pommel-spear.jpg";
+import pictureMallet from "../assets/melee-warfare-weapons/mallet.jpg";
+import pictureWarHammer from "../assets/melee-warfare-weapons/war-hammer.jpg";
+import pictureMorgenstern from "../assets/melee-warfare-weapons/morgenstern.png";
+import pictureWarPeak from "../assets/melee-warfare-weapons/war-peak.png";
+import picturePeak from "../assets/melee-warfare-weapons/peak.png";
+import pictureRapier from "../assets/melee-warfare-weapons/rapier.jpg";
+import pictureTrident from "../assets/melee-warfare-weapons/trident.png";
+
+//range-warfare-weapons
+import pictureHandCrossbow from "../assets/range-warfare-weapons/hand-crossbow.png";
+import pictureHeavyCrossbow from "../assets/range-warfare-weapons/heavy-crossbow.png";
+import pictureLongBow from "../assets/range-warfare-weapons/longbow.png";
+import pictureNet from "../assets/range-warfare-weapons/net.png";
+import pictureBlowpipe from "../assets/range-warfare-weapons/blowpipe.jpg";
 
 export const items = [
     {
@@ -212,7 +245,7 @@ export const items = [
                 dammage: 8,
                 type: "Perforant",
                 weight: 2500,
-                picture: picture,
+                picture: pictureLigthCrossbow,
                 property: [
                     {
                         name: "Munition",
@@ -229,7 +262,7 @@ export const items = [
                 dammage: 6,
                 type: "Perforant",
                 weight: 1000,
-                picture: picture,
+                picture: pictureShortBow,
                 property: [
                     {
                         name: "Munitions",
@@ -246,7 +279,7 @@ export const items = [
                 dammage: 4,
                 type: "Perforant",
                 weight: 100,
-                picture: picture,
+                picture: pictureDart,
                 property: [
                     {
                         name: "Finesse"
@@ -264,7 +297,7 @@ export const items = [
                 dammage: 4,
                 type: "Contondant",
                 weight: 0,
-                picture: picture,
+                picture: pictureSling,
                 property: [
                     {
                         name: "Munition",
@@ -284,7 +317,7 @@ export const items = [
                 dammage: 6,
                 type: "Tranchant",
                 weight: 1500,
-                picture: picture,
+                picture: pictutreScimitar,
                 property: [
                     {
                         name: "Finesse"
@@ -301,7 +334,7 @@ export const items = [
                 dammage: 10,
                 type: "Tranchant",
                 weight: 3000,
-                picture: picture,
+                picture: pictureTick,
                 property: [
                     {
                         name: "Lourde",
@@ -319,7 +352,7 @@ export const items = [
                 dammage: 6,
                 type: "Tranchant",
                 weight: 3000,
-                picture: picture,
+                picture: PictureTwoHandleSword,
                 property: [
                     {
                         name: "Lourde",
@@ -333,7 +366,7 @@ export const items = [
                 dice: 1,
                 dammage: 6,
                 weight: 1000,
-                picture: picture,
+                picture: pictureShortSword,
                 property: [
                     {
                         name: "Finesse"
@@ -350,7 +383,7 @@ export const items = [
                 dammage: 8,
                 type: "Tranchant",
                 weight: 1500,
-                picture: picture,
+                picture: pictureLongSword,
                 property: [
                     {
                         name: "Polyvalente",
@@ -366,7 +399,7 @@ export const items = [
                 dammage: 8,
                 type: "Tranchant",
                 weight: 1500,
-                picture: picture,
+                picture: pictureWeaponFlail,
                 property: [
                     "-"
                 ]
@@ -378,7 +411,7 @@ export const items = [
                 dammage: 4,
                 type: "Tranchant",
                 weight: 1500,
-                picture: picture,
+                picture: pictureWhip,
                 property: [
                     {
                         name: "Finesse",
@@ -390,12 +423,12 @@ export const items = [
             },
             {
                 id: 22,
-                name: "Hace à deux mains",
+                name: "Hache à deux mains",
                 dice: 1,
                 dammage: 12,
                 type: "Tranchant",
                 weight: 3500,
-                picture: picture,
+                picture: pictureTwoHandedAxe,
                 property: [
                     {
                         name: "Lourde",
@@ -410,7 +443,7 @@ export const items = [
                 dammage: 8,
                 type: "Tranchant",
                 weight: 2000,
-                picture: picture,
+                picture: pictureBattleAxe,
                 property: [
                     {
                         name: "Polyvalente",
@@ -426,7 +459,7 @@ export const items = [
                 dammage: 10,
                 type: "Tranchant",
                 weight: 3000,
-                picture: picture,
+                picture: pictureHallberd,
                 property: [
                     {
                         name: "Lourde",
@@ -444,7 +477,7 @@ export const items = [
                 dammage: 12,
                 type: "Perforant",
                 weight: 3000,
-                picture: picture,
+                picture: picturePommelSpear,
                 property: [
                     {
                         name: "Allonge",
@@ -459,7 +492,7 @@ export const items = [
                 dammage: 6,
                 type: "Contondant",
                 weight: 5000,
-                picture: picture,
+                picture: pictureMallet,
                 property: [
                     {
                         name: "Lourde",
@@ -474,7 +507,7 @@ export const items = [
                 dammage: 8,
                 type: "Contondant",
                 weight: 1000,
-                picture: picture,
+                picture: pictureWarHammer,
                 property: [
                     {
                         name: "Polyvalente",
@@ -490,7 +523,7 @@ export const items = [
                 dammage: 8,
                 type: "Perforant",
                 weight: 2000,
-                picture: picture,
+                picture: pictureMorgenstern,
                 property: [
                     "-"
                 ]
@@ -502,7 +535,7 @@ export const items = [
                 dammage: 8,
                 type: "Perforant",
                 weight: 1000,
-                picture: picture,
+                picture: pictureWarPeak,
                 property: [
                     "-"
                 ]
@@ -514,7 +547,7 @@ export const items = [
                 dammage: 10,
                 type: "Perforant",
                 weight: 9000,
-                picture: picture,
+                picture: picturePeak,
                 property: [
                     {
                         name: "Lourde",
@@ -530,7 +563,7 @@ export const items = [
                 dammage: 8,
                 type: "Perforant",
                 weight: 1000,
-                picture: picture,
+                picture: pictureRapier,
                 property: [
                     {
                         name: "Finesse"
@@ -544,7 +577,7 @@ export const items = [
                 dammage: 6,
                 type: "Perforant",
                 weight: 2000,
-                picture: picture,
+                picture: pictureTrident,
                 property: [
                     {
                         name: "Lancer",
@@ -569,7 +602,7 @@ export const items = [
                 dammage: 6,
                 type: "Perforant",
                 weight: 1500,
-                picture: picture,
+                picture: pictureHandCrossbow,
                 property: [
                     {
                         name: "Munition",
@@ -588,7 +621,7 @@ export const items = [
                 dammage: 10,
                 type: "Perforant",
                 weight: 9000,
-                picture: picture,
+                picture: pictureHeavyCrossbow,
                 property: [
                     {
                         name: "Munition",
@@ -606,7 +639,7 @@ export const items = [
                 dammage: 8,
                 type: "Perforant",
                 weight: 1000,
-                picture: picture,
+                picture: pictureLongBow,
                 property: [
                     {
                         name: "Munition",
@@ -623,7 +656,7 @@ export const items = [
                 dammage: 0,
                 type: "",
                 weight: 1500,
-                picture: picture,
+                picture: pictureNet,
                 property: [
                     {
                         name: "Spécial",
@@ -641,7 +674,7 @@ export const items = [
                 dammage: 1,
                 type: "Perforant",
                 weight: 5000,
-                picture: picture,
+                picture: pictureBlowpipe,
                 property: [
                     {
                         name: "Munition",
