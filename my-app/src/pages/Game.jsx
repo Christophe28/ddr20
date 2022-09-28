@@ -1,11 +1,12 @@
 import React from 'react';
 
 import { items } from '../config/config-weapons';
-import { charactersSheet } from '../config/config-characer-sheet';
+// import { charactersSheet } from '../config/config-characer-sheet';
 
-import Items from '../components/Items';
 // import CharactersSheet from '../components/Characters-sheets';
 import ViewWrapper from '../components/view-wrapper/View-wrapper';
+import NavigationRightPanel from '../components/view-wrapper/Navigation-right-panel';
+import AllItems from '../components/All-items';
 
 const Game = () => {
     // const arrayTest = [1, 2];
@@ -15,7 +16,6 @@ const Game = () => {
     //     }
     // }
 
-    console.log(charactersSheet[0].baseStat);
     return (
         <div>
             <ViewWrapper>
@@ -25,25 +25,11 @@ const Game = () => {
                     </section>
                     <section className="container-items">
                         <div className="panel-right">
-                            {
-                                items.map((item, index) => (
-                                    <React.Fragment key={item.weapons[index].id} className="panel-right">
-                                        <p><strong>{item.typeWeapon}</strong></p>
-                                        {
-                                            item.weapons.map((weapon) => (
-
-                                                <Items
-                                                    key={weapon.id}
-                                                    picture={weapon.picture}
-                                                    name={weapon.name}
-                                                    dammage={weapon.dammage}
-                                                    dice={weapon.dice}
-                                                    />
-                                                    ))
-                                                }
-                                    </React.Fragment>
-                                ))
-                            }
+                            <NavigationRightPanel>
+                                <AllItems
+                                items={items} 
+                                />
+                            </NavigationRightPanel>
                         </div>
                     </section>
                 </div>
