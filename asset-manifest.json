@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ddr20/static/css/main.02f03111.css",
-    "main.js": "/ddr20/static/js/main.0f420399.js",
+    "main.css": "/ddr20/static/css/main.26dc26fe.css",
+    "main.js": "/ddr20/static/js/main.4feedf2f.js",
     "static/media/morgenstern.png": "/ddr20/static/media/morgenstern.1b926c55e654e8d548a4.png",
     "static/media/stick.png": "/ddr20/static/media/stick.a79cdd16457560d8de80.png",
     "static/media/weapon-flail.jpg": "/ddr20/static/media/weapon-flail.a5c56d0805ff7b8ad681.jpg",
@@ -29,11 +29,11 @@
     "static/media/hallberd.png": "/ddr20/static/media/hallberd.aeaed247eafad1d2c362.png",
     "static/media/heavy-crossbow.png": "/ddr20/static/media/heavy-crossbow.856cc1721af1826ded60.png",
     "index.html": "/ddr20/index.html",
-    "main.02f03111.css.map": "/ddr20/static/css/main.02f03111.css.map",
-    "main.0f420399.js.map": "/ddr20/static/js/main.0f420399.js.map"
+    "main.26dc26fe.css.map": "/ddr20/static/css/main.26dc26fe.css.map",
+    "main.4feedf2f.js.map": "/ddr20/static/js/main.4feedf2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.02f03111.css",
-    "static/js/main.0f420399.js"
+    "static/css/main.26dc26fe.css",
+    "static/js/main.4feedf2f.js"
   ]
 }
