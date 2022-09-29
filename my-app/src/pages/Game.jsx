@@ -2,11 +2,13 @@ import React from 'react';
 import { useState } from 'react';
 
 import { items } from '../config/config-weapons';
+import { armor } from '../config/config-armor';
 
 import ViewWrapper from '../components/view-wrapper/View-wrapper';
 import NavigationRightPanel from '../components/view-wrapper/Navigation-right-panel';
 import AllItems from '../components/items/All-items';
 import CharactersSheet from '../components/characters/Characters-sheets';
+import AllArmor from '../components/armor/All-armor';
 
 const Game = () => {
     const [currentNavElement, setCurrentNavElement] = useState(<AllItems items={items} />);
@@ -14,8 +16,12 @@ const Game = () => {
         <AllItems 
         items={items} 
         />,
-        <CharactersSheet />
+        <CharactersSheet />,
+        <AllArmor
+        data={armor} 
+        />
     ]
+    
     return (
         <div>
             <ViewWrapper>
