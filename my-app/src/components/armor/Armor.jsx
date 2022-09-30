@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Armor = ({ name, stats }) => {
+const Armor = ({ picture, name, stats }) => {
     return (
         <section className='item'>
-            {name} + {stats} de CA
+            <img src={picture} alt={name} /> {name} + {stats} de CA
         </section>
     );
 };

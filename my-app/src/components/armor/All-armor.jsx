@@ -12,6 +12,7 @@ const AllArmor = ({ data }) => {
                     {
                         elems.armor.map((elem, index) => (
                             <Armor 
+                            picture={elem.picture}
                             name={elem.name}
                             stats={elem.ca}
                             />

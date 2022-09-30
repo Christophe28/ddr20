@@ -1,3 +1,14 @@
+import pictureBreastplate from "../assets/armor/breastplate.png";
+import pictureChainMail from "../assets/armor/chain-mail.png";
+import pictureHalfPlate from "../assets/armor/half-plate.png";
+import pictureHide from "../assets/armor/hide.png";
+import picturePadded from "../assets/armor/padded.png";
+import pictureRingMail from "../assets/armor/ring-mail.png";
+import pictureScaleMail from "../assets/armor/scale-mail.png";
+import pictureSplint from "../assets/armor/splint.png";
+import pictureStuddedLeather from "../assets/armor/studded-leather.png";
+import pictureShield from "../assets/armor/shield.png";
+
 export const armor = [
     {
         typeArmor: "Armures légères",
@@ -8,7 +19,8 @@ export const armor = [
                 ca: 11,
                 modificator: "Modificateur DEX",
                 discretion: "Désavantage",
-                weight: 4000
+                weight: 4000,
+                picture: picturePadded
             },
             {
                 id: 2,
@@ -16,7 +28,8 @@ export const armor = [
                 ca: 11,
                 modificator: "Modificateur DEX",
                 discretion: "",
-                weight: 5000
+                weight: 5000,
+                picture: picturePadded
             },
             {
                 id: 3,
@@ -24,7 +37,8 @@ export const armor = [
                 ca: 12,
                 modificator: "Modificateur DEX",
                 discretion: "",
-                weight: 6500
+                weight: 6500,
+                picture: pictureStuddedLeather
             },
         ]
     },
@@ -37,7 +51,8 @@ export const armor = [
                 ca: 12,
                 modificator: "Modificateur DEX (max +2)",
                 discretion: "",
-                weight: 6000
+                weight: 6000,
+                picture: pictureHide
             },
             {
                 id: 5,
@@ -45,7 +60,8 @@ export const armor = [
                 ca: 13,
                 modificator: "Modificateur DEX (max +2)",
                 discretion: "",
-                weight: 10000
+                weight: 10000,
+                picture: pictureHide
             },
             {
                 id: 6,
@@ -53,7 +69,8 @@ export const armor = [
                 ca: 14,
                 modificator: "Modificateur DEX (max +2)",
                 discretion: "Désavantage",
-                weight: 22500
+                weight: 22500,
+                picture: pictureScaleMail
             },
             {
                 id: 7,
@@ -61,7 +78,8 @@ export const armor = [
                 ca: 14,
                 modificator: "Modificateur DEX (max +2)",
                 discretion: "",
-                weight: 10000
+                weight: 10000,
+                picture: pictureBreastplate
             },
             {
                 id: 8,
@@ -69,7 +87,8 @@ export const armor = [
                 ca: 15,
                 modificator: "Modificateur DEX (max +2)",
                 discretion: "Désavantage",
-                weight: 20000
+                weight: 20000,
+                picture: pictureHalfPlate
             }
         ]
     },
@@ -83,7 +102,8 @@ export const armor = [
                 modificator: "",
                 strength: "",
                 discretion: "Désavantage",
-                weight: 20000
+                weight: 20000,
+                picture: pictureRingMail
             },
             {
                 id: 10,
@@ -92,7 +112,8 @@ export const armor = [
                 modificator: "",
                 strength: "For 13",
                 discretion: "Désavantage",
-                weight: 27500
+                weight: 27500,
+                picture: pictureChainMail
             },
             {
                 id: 11,
@@ -101,7 +122,8 @@ export const armor = [
                 modificator: "",
                 strength: "For 15",
                 discretion: "Désavantage",
-                weight: 30000
+                weight: 30000,
+                picture: pictureSplint
             },
             {
                 id: 12,
@@ -110,7 +132,8 @@ export const armor = [
                 modificator: "",
                 strength: "For 15",
                 discretion: "Désavantage",
-                weight: 32500
+                weight: 32500,
+                picture: picturePadded
             }
         ]
     },
@@ -124,7 +147,8 @@ export const armor = [
                 modificator: "",
                 strength: "",
                 discretion: "",
-                weight: 3000
+                weight: 3000,
+                picture: pictureShield
             }
         ]
     }
