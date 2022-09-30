@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/ddr20/static/css/main.0980f584.css",
-    "main.js": "/ddr20/static/js/main.e020ded2.js",
+    "main.js": "/ddr20/static/js/main.c548ce35.js",
+    "static/media/shield.png": "/ddr20/static/media/shield.bbc66a5e935a9b92e34e.png",
     "static/media/morgenstern.png": "/ddr20/static/media/morgenstern.1b926c55e654e8d548a4.png",
     "static/media/stick.png": "/ddr20/static/media/stick.a79cdd16457560d8de80.png",
     "static/media/weapon-flail.jpg": "/ddr20/static/media/weapon-flail.a5c56d0805ff7b8ad681.jpg",
@@ -17,23 +18,32 @@
     "static/media/longbow.png": "/ddr20/static/media/longbow.2b31f37780a585cfe0d4.png",
     "static/media/light-crossbow.png": "/ddr20/static/media/light-crossbow.9764a38429b3655a9ec9.png",
     "static/media/hand-crossbow.png": "/ddr20/static/media/hand-crossbow.f3fa06fd037727572fd1.png",
+    "static/media/splint.png": "/ddr20/static/media/splint.6ad7c46019d70a887d6b.png",
+    "static/media/chain-mail.png": "/ddr20/static/media/chain-mail.128e8c86c99656b7c6a2.png",
     "static/media/long-sword.jpg": "/ddr20/static/media/long-sword.9e0bd92b9887a374407f.jpg",
     "static/media/dart.jpg": "/ddr20/static/media/dart.a4a303b1f751e3238b02.jpg",
+    "static/media/scale-mail.png": "/ddr20/static/media/scale-mail.67db0696c43207ddf7a4.png",
     "static/media/pommel-spear.jpg": "/ddr20/static/media/pommel-spear.15f381e14ecfc4ea5d38.jpg",
     "static/media/rapier.jpg": "/ddr20/static/media/rapier.52200a415509f4fd2075.jpg",
     "static/media/scimitar.png": "/ddr20/static/media/scimitar.4cd46386b27edc55a13b.png",
+    "static/media/ring-mail.png": "/ddr20/static/media/ring-mail.f090e89bca428b812b13.png",
+    "static/media/hide.png": "/ddr20/static/media/hide.60c32631a46788eeb5c3.png",
+    "static/media/half-plate.png": "/ddr20/static/media/half-plate.7cb9fba79b639c992c9c.png",
     "static/media/sling.jpg": "/ddr20/static/media/sling.e269079e6a1bf7682deb.jpg",
     "static/media/blowpipe.jpg": "/ddr20/static/media/blowpipe.868dd2536ce2d2dcc418.jpg",
+    "static/media/breastplate.png": "/ddr20/static/media/breastplate.f2968f1aba761c5f32c3.png",
+    "static/media/studded-leather.png": "/ddr20/static/media/studded-leather.2b623d1292521bc05b7e.png",
+    "static/media/padded.png": "/ddr20/static/media/padded.fea6dc4fc9e83881887b.png",
     "static/media/short-sword.jpg": "/ddr20/static/media/short-sword.204c8dbf096a3f8464ba.jpg",
     "static/media/peak.png": "/ddr20/static/media/peak.8e4bf96a0be878f0a712.png",
     "static/media/hallberd.png": "/ddr20/static/media/hallberd.aeaed247eafad1d2c362.png",
     "static/media/heavy-crossbow.png": "/ddr20/static/media/heavy-crossbow.856cc1721af1826ded60.png",
     "index.html": "/ddr20/index.html",
     "main.0980f584.css.map": "/ddr20/static/css/main.0980f584.css.map",
-    "main.e020ded2.js.map": "/ddr20/static/js/main.e020ded2.js.map"
+    "main.c548ce35.js.map": "/ddr20/static/js/main.c548ce35.js.map"
   },
   "entrypoints": [
     "static/css/main.0980f584.css",
-    "static/js/main.e020ded2.js"
+    "static/js/main.c548ce35.js"
   ]
 }
