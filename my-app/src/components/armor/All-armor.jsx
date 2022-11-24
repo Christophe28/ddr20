@@ -2,7 +2,7 @@ import React from 'react';
 import Armor from './Armor';
 
 const AllArmor = ({ data }) => {
-    data.map(elem => console.log(elem.armor))
+
     return (
         <>
          {
@@ -10,8 +10,9 @@ const AllArmor = ({ data }) => {
                 <React.Fragment key={index}>
                     <p><strong>{elems.typeArmor}</strong></p>
                     {
-                        elems.armor.map((elem, index) => (
+                        elems.armor.map((elem) => (
                             <Armor 
+                            key={elem.id}
                             picture={elem.picture}
                             name={elem.name}
                             stats={elem.ca}

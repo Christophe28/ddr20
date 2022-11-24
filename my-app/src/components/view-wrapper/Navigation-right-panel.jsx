@@ -5,7 +5,7 @@ const NavigationRightPanel = ({ children, setState, array }) => {
         <>
             <section className="navigation-right-panel">
                 <ul>
-                    <li onClick={() => setState(array[0])}>Armes</li>
+                    <li onClick={() => setState(array[0])}>Arme</li>
                     <li onClick={() => setState(array[1])}>Fiche perso</li>
                     <li onClick={() => setState(array[2])}>Armure</li>
                 </ul>

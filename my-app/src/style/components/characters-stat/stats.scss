@@ -1,0 +1,25 @@
+.container-character-sheet {
+    max-width: 100%;
+    border: 1px solid red;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    display: flex;
+
+    .container-base-stat {
+        border: 1px solid black;
+        
+        .base-stat {
+            border: 1px solid black;
+            text-align: center;
+            font-weight: bolder;
+
+            input {
+                border-radius: 50%;
+                width: 45px;
+                height: 25px;
+                text-align: center;
+            }
+        }
+    }
+}

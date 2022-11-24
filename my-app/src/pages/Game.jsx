@@ -16,12 +16,12 @@ const Game = () => {
         <AllItems 
         items={items} 
         />,
-        <CharactersSheet />,
+        <h1>Yo</h1>,
         <AllArmor
         data={armor} 
         />
     ]
-    
+
     return (
         <div>
             <ViewWrapper>
@@ -41,6 +41,7 @@ const Game = () => {
                     </section>
                 </div>
             </ViewWrapper>
+            <CharactersSheet />
         </div>
     );
 };
